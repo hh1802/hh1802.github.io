@@ -11,7 +11,7 @@
   
   <meta property="og:type" content="website">
 <meta property="og:title" content="相逢一笑">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
 <meta property="og:site_name" content="相逢一笑">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
@@ -257,326 +257,7 @@
         
           <section id="main" style="float:none;">
   
-    <article id="post-线程进程"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/线程进程/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.979Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          进程1.进程之间相互不影响，同一个程序里面杀掉一个进程，其余的进程没有影响，进程之间资源默认是没有共享的（可以通过其它的方式实现共享）
-12345678910111213141516171819202122232425262728293031323334353637383940414243os.getpid()   #查询当前的进程号import osimport timefrom random import randintfrom multiprocessing import Proce...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/线程进程/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-爬虫资料"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/爬虫资料/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.944Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          BeautifulSoup基本步骤官网(https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html#id37)
-1.CSS选择器查找内容如
-
-123456789from bs4 import BeautifulSoup**page_source能够拿到页面的源代码url =driver.page_sourcesoup = BeautifulSoup(url, &apos;lxml&apos;)for img_tag...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/爬虫资料/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-xpath"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/xpath/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.917Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          xpath1234567891011121314151617181920212223242526272829import requestsfrom lxml import etree   ##用xpath需要导入的lxml模块下的etreeheader = &#123;        &apos;User-Agent&apos;: &apos;Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like G...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/xpath/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-scrapy"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/scrapy/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.887Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          scrapyItem
-items.py文件为抓取数据对象的容器，在他下面定义的字段，为后续持久化数据的时候的有哪些字段，所以它要传入到处理爬虫对象的文件中，组装里面对象的属性为字典，存到item中，返回给Pipeline文件，因为需要把值存到数据库中，所以Pipeline文件中也需要组装成字典，插入数据到数据库中。
-spiders下的item为爬虫对象的返回值（item: 由 parse 方法返回的 Item 对象(Item对象) ）——-给到——》Pipeline该文件里面的def pr...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/scrapy/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-restframework"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/restframework/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.860Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          前后分离api接口：统一返回的样式
-
-Django rest_framework风格
-rest   
-资源：从地址里就可以看出对哪个资源进行操作（student， grade）抽象出来的类
-资源具有统一接口。
-
-GET: 获取
-POST:创建
-PUT: 修改，修改某一个对象的全部属性（比如说id=1的学生的所有属性）
-PATCH:修改，部分属性修改
-DELETE:删除
-restful风格
-使用第二种风格
-
-接口文档：请求，响应
-状态码：200成功，400,500代码错误
-安装
-pip in...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/restframework/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-mongodb基本语法"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/mongodb基本语法/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.857Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798991001011021031041051061071081091101111121131141151161171181...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/mongodb基本语法/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-flask中配置与操作"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/flask中配置与操作/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.836Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          flask中的模型from flask_sqlalchemy import SQLALchemy
-db = SQLALchemy() –实例化数据库（在模型定义中（models.py），db.init_app(app=app),及views.py文件中创建数据库db.create_all()中都要使用到，并且这几个的db只能是同一个db，也就是说其它两个必须从第一个中导入， 目前本人一般把db写到models.py文件中，因为模型中创建数据库表中的列db.Column需要使用db）
-123...
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/flask中配置与操作/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-2to3演示md"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2018/07/04/2to3演示md/" class="article-date">
-	  <time datetime="2018-07-04T11:46:04.821Z" itemprop="datePublished">2018-07-04</time>
-	</a>
-
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          在安装python3时自动会生成2to3工具， 需要在环境变量/usr/bin里创建2to3的软连接
-再使用下面的命令
-
-Linux下的演示结果
-
-
-        </p>
-        <p class="article-more-link">
-          <a href="/2018/07/04/2to3演示md/#more">Read More</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-Django随笔"  class="article article-type-post" itemscope itemprop="blogPost" >
+    <article id="post-搭建Django项目"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="article-inner">
     
     
@@ -584,7 +265,7 @@ Linux下的演示结果
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/06/02/Django随笔/">Django随笔</a>
+      <a class="article-title" href="/2018/05/31/搭建Django项目/">搭建Django项目</a>
     </h1>
   
 
@@ -592,8 +273,8 @@ Linux下的演示结果
     
     <div class="article-meta">
       
-	<a href="/2018/06/02/Django随笔/" class="article-date">
-	  <time datetime="2018-06-02T02:46:40.000Z" itemprop="datePublished">2018-06-02</time>
+	<a href="/2018/05/31/搭建Django项目/" class="article-date">
+	  <time datetime="2018-05-31T11:15:55.000Z" itemprop="datePublished">2018-05-31</time>
 	</a>
 
       
@@ -602,11 +283,18 @@ Linux下的演示结果
     <div class="article-entry" itemprop="articleBody">
       
         <p class="article-excerpt-content">
-          #####model1.模型——&gt;数据库表2.模型的属性———&gt; 数据库列3.模型类 —-继承models.Model
-12345678910111213141516171819202122232425262728293031323334from django.db import models# ORM - 对象关系映射# 对象模型  &lt;---&gt;   关系模型# 实体类    &lt;---&gt;   二维表# 属性      &lt;---&gt;   列# 对...
+          Django建项目和APP1.创建虚拟环境(选择E盘创建虚拟环境)
+  pip install virtualenv –安装virtualenv
+  virtualenv –no-site-package djangoenv –安装虚拟环境  取名djangoenv
+
+E:   –切换到E盘
+E:>cd djangoenv
+E:\djangoenv&gt;dir驱动器 E 中的卷是 文档卷的序列号是 0000-3290
+E:\djangoenv 的目录
+2018/05/28  09:43 ...
         </p>
         <p class="article-more-link">
-          <a href="/2018/06/02/Django随笔/#more">Read More</a>
+          <a href="/2018/05/31/搭建Django项目/#more">Read More</a>
         </p>
       
     </div>
@@ -623,7 +311,7 @@ Linux下的演示结果
 <!-- Table of Contents -->
 
   
-    <article id="post-mysql操作"  class="article article-type-post" itemscope itemprop="blogPost" >
+    <article id="post-随笔"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="article-inner">
     
     
@@ -631,7 +319,7 @@ Linux下的演示结果
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/06/02/mysql操作/">myql的简单操作</a>
+      <a class="article-title" href="/2018/05/26/随笔/">随笔</a>
     </h1>
   
 
@@ -639,8 +327,8 @@ Linux下的演示结果
     
     <div class="article-meta">
       
-	<a href="/2018/06/02/mysql操作/" class="article-date">
-	  <time datetime="2018-06-02T02:17:27.000Z" itemprop="datePublished">2018-06-02</time>
+	<a href="/2018/05/26/随笔/" class="article-date">
+	  <time datetime="2018-05-26T01:28:23.000Z" itemprop="datePublished">2018-05-26</time>
 	</a>
 
       
@@ -649,10 +337,156 @@ Linux下的演示结果
     <div class="article-entry" itemprop="articleBody">
       
         <p class="article-excerpt-content">
-          mysql操作– 更改表中某列的属性– SQL(Structured Query Language): 结构化查询语言(关系型数据库的编程语言)– DDL(数据定义语言): create(创建) / drop(删除) / alter(修改)– DML(数据操纵语言): insert(插入) / delete(删除) / update(更新)– DQL(数据查询语言): select(选择)– DCL(数据控制语言): grant(授予权限) / revoke(召回权限) / begin(开...
+          1import requests
+requests方法：requests.get  get从网上那图片下来是二进制
+12from urllib.parse import quote, unquoteimport requsete
+url = ‘http://www.baidu.com&#39;url += quote(‘月亮’)  quote：把汉字变成百分号编码resp = requests.get(‘url’)print(resp.json()) 将获得的文本直接拿到json格式数据u...
         </p>
         <p class="article-more-link">
-          <a href="/2018/06/02/mysql操作/#more">Read More</a>
+          <a href="/2018/05/26/随笔/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-红哥的博客"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/05/25/红哥的博客/">红哥的博客</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/05/25/红哥的博客/" class="article-date">
+	  <time datetime="2018-05-25T14:37:03.000Z" itemprop="datePublished">2018-05-25</time>
+	</a>
+
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          你好，星期五
+
+        </p>
+        <p class="article-more-link">
+          <a href="/2018/05/25/红哥的博客/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-笔记"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/05/25/笔记/">随笔</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/05/25/笔记/" class="article-date">
+	  <time datetime="2018-05-25T14:37:03.000Z" itemprop="datePublished">2018-05-25</time>
+	</a>
+
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          1import requests
+requests方法：requests.get  get从网上那图片下来是二进制
+12from urllib.parse import quote, unquoteimport requsete
+url = ‘http://www.baidu.com&#39;url += quote(‘月亮’)  quote：把汉字变成百分号编码resp = requests.get(‘url’)print(resp.json()) 将获得的文本直接拿到json格式数据u...
+        </p>
+        <p class="article-more-link">
+          <a href="/2018/05/25/笔记/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-hello-world"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/05/25/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/05/25/hello-world/" class="article-date">
+	  <time datetime="2018-05-25T14:02:14.543Z" itemprop="datePublished">2018-05-25</time>
+	</a>
+
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new "My New Post...
+        </p>
+        <p class="article-more-link">
+          <a href="/2018/05/25/hello-world/#more">Read More</a>
         </p>
       
     </div>
@@ -673,7 +507,7 @@ Linux下的演示结果
 
   <nav id="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
 
 </section>

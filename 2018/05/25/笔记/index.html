@@ -16,15 +16,15 @@
 <meta property="og:site_name" content="相逢一笑">
 <meta property="og:description" content="1import requests requests方法：requests.get  get从网上那图片下来是二进制 12from urllib.parse import quote, unquoteimport requsete url = ‘http://www.baidu.com&amp;#39;url += quote(‘月亮’)  quote：把汉字变成百分号编码resp = requests.g">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="attachment:image.png">
-<meta property="og:image" content="attachment:image.png">
-<meta property="og:image" content="attachment:image.png">
-<meta property="og:image" content="attachment:image.png">
+<meta property="og:image" content="http://yoursite.com/2018/05/25/笔记/attachment:image.png">
+<meta property="og:image" content="http://yoursite.com/2018/05/25/笔记/attachment:image.png">
+<meta property="og:image" content="http://yoursite.com/2018/05/25/笔记/attachment:image.png">
+<meta property="og:image" content="http://yoursite.com/2018/05/25/笔记/attachment:image.png">
 <meta property="og:updated_time" content="2018-05-30T14:15:10.911Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="随笔">
 <meta name="twitter:description" content="1import requests requests方法：requests.get  get从网上那图片下来是二进制 12from urllib.parse import quote, unquoteimport requsete url = ‘http://www.baidu.com&amp;#39;url += quote(‘月亮’)  quote：把汉字变成百分号编码resp = requests.g">
-<meta name="twitter:image" content="attachment:image.png">
+<meta name="twitter:image" content="http://yoursite.com/2018/05/25/笔记/attachment:image.png">
   
     <link rel="alternate" href="/atom.xml" title="相逢一笑" type="application/atom+xml">
   
@@ -206,16 +206,16 @@
 <p>from multprocess import process<br>进程 p1=process(target=任务, args=(‘参数’，)) 元祖<br>p1.start()启动进程<br>p1.join()等待进程结束</p>
 <p>vim编辑器<br>1.可以在编辑vim的时候，敲Ctrl+z 把当前编辑的任务放到后台执行，会切换到shell环境，去执行其他的任务，再敲<br>fg会切换到vim下编辑<br>2.:sh 切换回来exit</p>
 <p>命令模式<br>G:去末尾<br>去230行：230gg<br>gg:去开头<br>ctrl+y向上<br>ctrl+e向下<br>ctrl+f向前翻一页<br>ctrl+d向后翻一页<br>u  撤销上一步操作<br>:w<br>:q!不保存强退<br>文本里搜索内容用 /   /下面加要搜索的东西放到里面 n下翻 N上翻  ？效果一样<br>d$ 删除当前光标到行末的内容</p>
-<p><img src="attachment:image.png" alt="image.png"></p>
+<p><img src="/2018/05/25/笔记/attachment:image.png" alt="image.png"></p>
 <p>数据库<br>1.再用insert插入数据的时候，如果插入的是整个列的内容可以不要在前面写内容直接：第三种<br>insert into tb_student values (1001, ‘王大锤’, 1, ‘1990-2-12’, ‘四川成都’);<br>– 插入指定列<br>insert into tb_student (sname, stuid) values (‘骆昊’, 1002);<br>insert into tb_student (stuid, sname, ssex) values (1003, ‘杨飘飘’, 0);<br>– 一次插入多行<br>insert into tb_student values<br>(1004, ‘张三丰’, 1, ‘1940-12-3’, ‘湖北武汉’),<br>(1005, ‘黄蓉’, 0, ‘1975-3-25’, ‘山东东营’),<br>(1006, ‘杨过’, 1, ‘1987-1-19’, ‘湖南长沙’);</p>
 <p>sentinel的配置文件设置如下前5行<br>bind 172.18.0.86  –内网IP<br>port 26379<br>sentinel monitor mymaster 172.18.0.86 63783 1 外网端口+哨兵数量1<br>sentinel down-after-milliseconds mymaster 5000 5s跳转到其他奴隶<br>sentinel auth-pass mymaster huang529 密码为master的<br>sentinel config-epoch mymaster 1<br>sentinel leader-epoch mymaster 1<br>sentinel known-slave mymaster 120.79.137.144 6378<br>sentinel known-slave mymaster 172.18.0.86 63781<br>sentinel known-slave mymaster 172.18.0.86 63782<br>sentinel current-epoch 1</p>
 <p>1.配置文件和一些命令<br>  vim sentinel.conf<br>  435  kill 1359<br>  436  kill 1299<br>  437  kill 1303<br>  438  kill 1307<br>  439  kill 1311<br>  440  vim sentinel.conf<br>  441  ps -ef | grep redis<br>  442  redis-server redis.conf &amp;<br>  –port 密码requirepass huang529<br>  bind 172.18.0.86<br>  port 6378</p>
 <p>  443  redis-server redis1.conf &amp;<br>  444  redis-server redis2.conf &amp;<br>  445  redis-server redis3.conf &amp;<br>  446  redis-server sentinel.conf –sentinel &amp;</p>
-<p><img src="attachment:image.png" alt="image.png"></p>
-<p><img src="attachment:image.png" alt="image.png"></p>
+<p><img src="/2018/05/25/笔记/attachment:image.png" alt="image.png"></p>
+<p><img src="/2018/05/25/笔记/attachment:image.png" alt="image.png"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pymysql  --模块导入pymysql</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="comment">#连接指定的数据库</span></span><br><span class="line">    conn = pymysql.connect(host=<span class="string">'localhost'</span>, user=<span class="string">'root'</span>, password=<span class="string">'123456'</span>, db=<span class="string">'linxi'</span>,</span><br><span class="line">                             charset=<span class="string">'utf8'</span>)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">with</span> conn.cursor() <span class="keyword">as</span> cursor: <span class="comment">#配置游标</span></span><br><span class="line">            consname = input(<span class="string">'输入名字：'</span>) <span class="comment">#数据库里面的列</span></span><br><span class="line">            contel = input(<span class="string">'输入电话：'</span>)</span><br><span class="line">            conemail = input(<span class="string">'输入邮箱:'</span>)</span><br><span class="line">            conqq = input(<span class="string">'输入qq：'</span>)</span><br><span class="line">        <span class="comment">#执行插入命令</span></span><br><span class="line">        result = cursor.execute(<span class="string">'insert into tb_contacts values(%s, %s, %s)'</span>, (consname, contel, conemail, conqq))</span><br><span class="line">        print(result)</span><br><span class="line">        <span class="comment">#增删改需要手动提交</span></span><br><span class="line">        conn.commit()</span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        conn.close()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
 <p>linux</p>
-<p>import getpass <img src="attachment:image.png" alt="image.png"></p>
+<p>import getpass <img src="/2018/05/25/笔记/attachment:image.png" alt="image.png"></p>
 <p>linux命令大小写敏感<br>echo 回声函数<br>a =10<br>b=15<br>echo $a + $b可以计算出结果 5+10<br>echo $((a+b))  结果为15 $()函数能够计算<br>HISTSIZE=2000,默认是1000，这样修改过后重启过后无效， 长期要在/etc/profile里面修改</p>
 <p>ln foo1 /foo2  硬链接相当于当前的地址复制了一次，删除其中一个还可以从另一个地址下找到<br>ln -s foo1 /foo2 相当于一个快捷方式，删除了原文件，内容找不回来<br>whereis 2to3 查找一个软件在哪里</p>
 <p>python hello.py<br>chmod 755 hello.py    ./hello.py<br>ln -s hello.py ~ /bin/h01<br>上面3种方式运行文件</p>
@@ -274,19 +274,19 @@ var a = new Donate({
     
 <nav id="article-nav">
   
-    <a href="/2018/05/25/红哥的博客/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/05/26/随笔/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          红哥的博客
+          随笔
         
       </div>
     </a>
   
   
-    <a href="/2018/05/25/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2018/05/25/红哥的博客/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">红哥的博客</div>
     </a>
   
 </nav>

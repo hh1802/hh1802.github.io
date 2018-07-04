@@ -16,12 +16,12 @@
 <meta property="og:site_name" content="相逢一笑">
 <meta property="og:description" content="scrapyItem items.py文件为抓取数据对象的容器，在他下面定义的字段，为后续持久化数据的时候的有哪些字段，所以它要传入到处理爬虫对象的文件中，组装里面对象的属性为字典，存到item中，返回给Pipeline文件，因为需要把值存到数据库中，所以Pipeline文件中也需要组装成字典，插入数据到数据库中。 spiders下的item为爬虫对象的返回值（item: 由 parse 方法返回">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="c:/Users/Administrator/Desktop/item.PNG">
+<meta property="og:image" content="http://yoursite.com/2018/07/04/scrapy/Users/Administrator/Desktop/item.PNG">
 <meta property="og:updated_time" content="2018-07-02T12:09:56.632Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="相逢一笑">
 <meta name="twitter:description" content="scrapyItem items.py文件为抓取数据对象的容器，在他下面定义的字段，为后续持久化数据的时候的有哪些字段，所以它要传入到处理爬虫对象的文件中，组装里面对象的属性为字典，存到item中，返回给Pipeline文件，因为需要把值存到数据库中，所以Pipeline文件中也需要组装成字典，插入数据到数据库中。 spiders下的item为爬虫对象的返回值（item: 由 parse 方法返回">
-<meta name="twitter:image" content="c:/Users/Administrator/Desktop/item.PNG">
+<meta name="twitter:image" content="http://yoursite.com/2018/07/04/scrapy/Users/Administrator/Desktop/item.PNG">
   
     <link rel="alternate" href="/atom.xml" title="相逢一笑" type="application/atom+xml">
   
@@ -183,7 +183,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h4 id="scrapy"><a href="#scrapy" class="headerlink" title="scrapy"></a>scrapy</h4><p>Item</p>
-<p><img src="C:\Users\Administrator\Desktop\item.PNG" alt="item">items.py文件为抓取数据对象的容器，在他下面定义的字段，为后续持久化数据的时候的有哪些字段，所以它要传入到处理爬虫对象的文件中，组装里面对象的属性为字典，存到item中，返回给Pipeline文件，因为需要把值存到数据库中，所以Pipeline文件中也需要组装成字典，插入数据到数据库中。</p>
+<p><img src="/2018/07/04/scrapy/Users\Administrator\Desktop\item.PNG" alt="item">items.py文件为抓取数据对象的容器，在他下面定义的字段，为后续持久化数据的时候的有哪些字段，所以它要传入到处理爬虫对象的文件中，组装里面对象的属性为字典，存到item中，返回给Pipeline文件，因为需要把值存到数据库中，所以Pipeline文件中也需要组装成字典，插入数据到数据库中。</p>
 <p>spiders下的item为爬虫对象的返回值（item: 由 parse 方法返回的 Item 对象(Item对象) ）——-给到——》Pipeline该文件里面的def process_item(self, item, spider)的item，需要激活Pipeline文件就需要设置settings下<strong>ITEM_PIPELINES</strong> ，</p>
 <p>ITEM_PIPELINES = {‘tutorial.pipelines.FilterWordsPipeline’: 1} ，</p>
 
